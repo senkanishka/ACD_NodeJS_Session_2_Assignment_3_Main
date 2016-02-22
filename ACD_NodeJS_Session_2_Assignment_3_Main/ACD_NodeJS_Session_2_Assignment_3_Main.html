@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Appending properties.</p>
+
+<p id="demo"></p>
+
+<script>
+var person = {
+    firstname:"Kanishka",
+    lastname:"Sen",
+    email:"sen.kanishka206it@gmail.com",
+    phonenumber:"+91-1234567890"
+    
+};
+delete person.age;
+document.getElementById("demo").innerHTML =
+"My name is " + person.firstname + " " + person.lastname + " whose email-id is " + person.email + " & phone number is " + person.phonenumber;
+</script>
+
+</body>
+</html>
